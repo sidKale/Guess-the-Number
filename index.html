@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the Number!!</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/340127372c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="top-container">
+      <h1 class="game-heading">Guess the Number!</h1>
+      <p class="choice-limit">⫷ Choose Between 1 and 20 ⫸</p>
+      <button class="reset-game">Play Again!!</button>
+      <div class="cNum"><span class="correctNumber">?</span></div>
+    </div>
+    <div class="bottom-container">
+      <div class="left-section">
+        <input type="number" placeholder="Enter Choice" class="user-choice" />
+        <button class="choice-check">Check</button>
+      </div>
+      <button class="reload-game">Reload Game</button>
+      <div class="right-section">
+        <p class="message">Start Guessing..</p>
+        <p class="chances">
+          Chances Left: <span class="chances-left">25</span>
+        </p>
+        <p class="highscore">
+          <i class="fas fa-trophy"></i> HighScore :
+          <span class="high-score"> 0</span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
